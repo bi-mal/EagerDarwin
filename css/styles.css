@@ -310,3 +310,19 @@ a{
         font-size: 1.7rem;
     }
 }
+
+/* media-objects */
+
+.media{
+    display: flex;
+}
+.media__title{
+    font-weight: 600;
+    margin-top: 0px;
+}
+.media__body{
+    margin: 0 2rem;
+}
+.media__image{
+    margin-top: 1rem;
+}
