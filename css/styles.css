@@ -535,6 +535,7 @@ a{
 }
 .block__header{
     text-align: center;
+    margin-bottom: 4rem;
 }
 .block__heading{
     margin-top: 0;
@@ -704,9 +705,6 @@ a{
 }
 .block-showcase__image > img{
     width: 100%;
-}
-.showcase__content .media{
-    margin: 4rem 0;
 }
 .showcase__content .media:first-of-type{
     margin-top: 2rem;
