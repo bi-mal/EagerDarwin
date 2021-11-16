@@ -360,6 +360,7 @@ a{
 
 .media{
     display: flex;
+    margin-bottom: 4rem;
 }
 .media__title{
     font-weight: 600;
@@ -470,6 +471,9 @@ a{
     padding: 4rem;
     border-radius: 5px;
 }
+.collout--signup{
+    transform: translateY(5rem);
+}
 .collout--primary{
     background-color: var(--color-primary);
     color: white;
@@ -530,7 +534,7 @@ a{
 /* blocks */
 
 .block{
-    --padding-vertical: 6rem;
+    --padding-vertical: 5rem;
     padding: var(--padding-vertical) 2rem;
 }
 .block__header{
@@ -551,11 +555,11 @@ a{
 }
 .block--skewed-right{
     padding-bottom: calc(var(--padding-vertical) + 4rem);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 95%);
 }
 .block--skewed-left{
     padding-bottom: calc(var(--padding-vertical) + 4rem);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
 }
 .container{
     max-width: 1140px;
@@ -618,9 +622,6 @@ a{
 
 /* Hero */
 
-.hero{
-    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
-}
 .hero__tagline{
     font-size: 2rem;
     color: #b9c3cf;
@@ -650,7 +651,7 @@ a{
 }
 .block-domain__price{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,6rem);
     font-size: 2rem;
     font-weight: 600;
@@ -726,6 +727,7 @@ a{
 
 .footer{
     background: #232323;
+    padding-top: 10rem;
 }
 .footer a{
     color: #777;
@@ -738,8 +740,8 @@ a{
     margin: 0;
 }
 .footer__section{
-    padding: 2rem 0 2rem 2rem;
     border-bottom: 1px solid #393939;
+    padding: 2rem;
 }
 .footer__heading{
     text-transform: uppercase;
@@ -782,6 +784,7 @@ a{
     }
     .footer__section{
         border: 0;
+        padding: 2rem 0 2rem 2rem;
     }
     .footer__heading{
         font-size: 1.6rem;
